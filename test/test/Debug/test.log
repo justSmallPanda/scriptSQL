@@ -1,0 +1,13 @@
+﻿main.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQsendQuery в функции "void __cdecl testConnection(class std::shared_ptr<class PGBackend>)" (?testConnection@@YAXV?$shared_ptr@VPGBackend@@@std@@@Z).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQgetResult в функции "void __cdecl testConnection(class std::shared_ptr<class PGBackend>)" (?testConnection@@YAXV?$shared_ptr@VPGBackend@@@std@@@Z).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQresultStatus в функции "void __cdecl testConnection(class std::shared_ptr<class PGBackend>)" (?testConnection@@YAXV?$shared_ptr@VPGBackend@@@std@@@Z).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQresultErrorMessage в функции "void __cdecl testConnection(class std::shared_ptr<class PGBackend>)" (?testConnection@@YAXV?$shared_ptr@VPGBackend@@@std@@@Z).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQntuples в функции "void __cdecl testConnection(class std::shared_ptr<class PGBackend>)" (?testConnection@@YAXV?$shared_ptr@VPGBackend@@@std@@@Z).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQgetvalue в функции "void __cdecl testConnection(class std::shared_ptr<class PGBackend>)" (?testConnection@@YAXV?$shared_ptr@VPGBackend@@@std@@@Z).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQclear в функции "void __cdecl testConnection(class std::shared_ptr<class PGBackend>)" (?testConnection@@YAXV?$shared_ptr@VPGBackend@@@std@@@Z).
+pgconnection.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQsetdbLogin в функции "public: __thiscall PGConnection::PGConnection(void)" (??0PGConnection@@QAE@XZ).
+pgconnection.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQfinish в функции "public: __thiscall PGConnection::PGConnection(void)" (??0PGConnection@@QAE@XZ).
+pgconnection.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQstatus в функции "public: __thiscall PGConnection::PGConnection(void)" (??0PGConnection@@QAE@XZ).
+pgconnection.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQerrorMessage в функции "public: __thiscall PGConnection::PGConnection(void)" (??0PGConnection@@QAE@XZ).
+pgconnection.obj : error LNK2019: ссылка на неразрешенный внешний символ _PQsetnonblocking в функции "public: __thiscall PGConnection::PGConnection(void)" (??0PGConnection@@QAE@XZ).
+C:\Users\stas_\source\repos\test\Debug\test.exe : fatal error LNK1120: неразрешенных внешних элементов: 12
